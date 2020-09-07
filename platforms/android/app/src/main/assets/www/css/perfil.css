@@ -1,0 +1,305 @@
+#perfil .foto {
+    --height: 150px;
+    background-image: url(https://wawaza.com/product_images/files/Beautiful-Japanese-woman-with-little-makeup-250px.jpg);
+    background-size: contain;
+    border-radius: 100px;
+    box-shadow: 0px 2px 15px rgba(0,0,0,.15);
+    height: var(--height);
+    position: fixed;
+    right: calc(50% - var(--height)/2);
+    top: 65px;
+    width: var(--height);
+    z-index: 2;
+}
+
+#perfil .foto .editar {
+    --height: 26px;
+    --top: 2px;
+    align-items: center;
+    background-color: rgba(255,255,255,.85);
+    border-radius: 50px;
+    box-shadow: 2px 3px 3px rgba(0,0,0,0.3);
+    display: flex;
+    height: var(--height);
+    justify-content: center;
+    position: absolute;
+    right: calc(var(--top) - -15px);
+    top: var(--top);
+    width: var(--height);
+}
+
+#perfil .foto .editar .icone {
+    height: 11px;
+}
+
+#perfil .decoracaoRedonda {
+    background: white;
+    /* border-radius: 100% 100% 0 0; */
+    box-shadow: inset 0px 3px 5px rgba(0,0,0,.15);
+    height: 120%;
+    left: -75%;
+    position: absolute;
+    top: 0px;
+    width: 250%;
+    z-index: 0;
+}
+
+#perfil form {
+    /*display: flex;*/
+}
+
+#perfil .botoesWrap {
+    display: flex; 
+    justify-content: flex-end;
+}
+
+#perfil .botoesWrap button{
+    border-radius: 07px;
+    font-weight: bold;
+    background-color: rgb(243, 243, 243);
+}
+
+#perfil .botoesWrap .botaoCancelar{
+    color: orange;
+}
+
+#perfil .botoesWrap .botaoSalvar{
+    color: var(--DarkishPurple);
+    margin-left: 10px;
+}
+
+#perfil .iconesTop {
+    flex: 1;
+}
+
+#perfil .iconesTop div {
+    justify-content: flex-end;
+}
+
+#perfil .iconesTop div i{
+    padding-right: 10px;
+}
+
+#perfil .pontuacoesWrapper {
+    display: flex;
+    margin-top: 50px;
+}
+
+#perfil .pontuacoesWrapper .pontuacoes {
+    flex: 1;
+}
+
+#perfil .pontuacoesWrapper .pontuacoes label {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#perfil .scoreCertificadoWrapper {
+    margin-top: 40px;
+}
+
+#perfil .scoreCertificadoWrapper h3 {
+    margin-top: 5px;
+}
+
+#perfil .pontuacoesWrapper .pontuacoes label span {
+    color: var(--DarkishPurple);
+}
+
+#perfil .scoreCertificadoWrapper div:nth-child(2) {
+    border-left: solid 1px #e0e0e0;
+}
+
+#perfil .scoreCertificadoWrapper .titulo {
+    color: var(--DarkishPurple);
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+#perfil .scoreCertificadoWrapper .legenda {
+    color: var(--DarkishPurple);
+    font-weight: bold;
+}
+
+#perfil .titulo {
+    padding-bottom: 10px;
+}
+
+#perfil .informacoes label {
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+#perfil .informacoes label span {
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: #8d949c;
+}
+
+/* #perfil .redesSociais {
+    padding-bottom: 5px;
+} */
+
+#perfil .redesSociais label i {
+    color: var(--DarkishPurple);
+    font-size: 20px;
+}
+
+#perfil .redesSociais label span {
+    color: #8d949c;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#modalCertificados .certificado {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#modalCertificados .certificado div {
+    flex: 1;
+}
+
+#modalCertificados .certificado div label {
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    margin-top: 25px;
+    font-weight: bolder;
+}
+
+#modalCertificados .certificado div label span{
+    color: var(--LightEggplant);
+}
+
+#modalCertificados .linkCertificado {
+    display: flex;
+}
+
+#modalCertificados .linkCertificado div {
+    flex: 1;
+}
+
+#modalCertificados .linkCertificado div label {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+#modalCertificados .linkCertificado div label a{
+    color: var(--Tealish);
+    text-decoration: underline;
+}
+
+#perfil .voltar {
+    padding: 10px;
+}
+#perfil .voltar span {
+    font-size: 15px;
+}
+
+#perfil .background + div {
+    height: 150px;
+}
+
+#perfil .dados {
+    padding: 2.5em;
+    height: 0;
+}
+
+#perfil .background {
+    height: 145px;
+    width: 100%;
+    background: linear-gradient(var(--LightEggplant) 40%, #4F7E97);
+    /*position: fixed;*/
+}
+
+#perfil #editar:not(:checked) ~ * button.editar {
+    display: none;
+}
+
+#perfil .dados .dado label {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    line-height: initial;
+}
+#perfil .dados .dado label span {
+    color: var(--DarkishPurple);
+}
+#perfil .dados .dado label .icon {
+    color: var(--DarkishPurple);
+    margin-right: 1em;
+    width: 15px;
+}
+
+#perfil .dados .dado input {
+    margin: 0 !important;
+}
+#perfil .dados .dado input:valid {
+    border-bottom: 1px solid var(--LightEggplant);
+    box-shadow: 0 1px 0 0 var(--LightEggplant);
+}
+#perfil .dados .dado:not(:first-child) {
+    padding-top: 2.5em;
+}
+
+#perfil .informacoes .input-field > label,
+#perfil .redesSociais .input-field > label {
+    color: #9e9e9e !important;
+}
+
+#perfil .informacoes .input-field > input,
+#perfil .redesSociais .input-field > input {
+    color: black !important;
+}
+
+#perfil #editar:not(:checked) ~ * .informacoes div.input-field,
+#perfil #editar:not(:checked) ~ * .redesSociais div.input-field,
+#perfil #editar:not(:checked) ~ * .informacoes input,
+#perfil #editar:not(:checked) ~ * .redesSociais input,
+#perfil #editar:not(:checked) ~ * .informacoes label:not(.estatico),
+#perfil #editar:not(:checked) ~ * .redesSociais label:not(.estatico),
+#perfil #editar:not(:checked) ~ .botoesWrap {
+    display: none !important;
+}
+
+#perfil #editar:checked ~ * .informacoes label.estatico,
+#perfil #editar:checked ~ * .redesSociais label.estatico {
+    display: none !important;
+}
+
+@media(max-height: 695px) {
+    #perfil .dado {
+        padding-top: 2.5em;
+    }
+
+    #perfil form {
+        display: block !important;
+        overflow-y: auto;
+    }
+
+    /* #perfil form button[type="submit"] {
+        margin-top: 2em;
+    } */
+}
+
+.icone-menu-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    position: relative;
+    z-index: 1;
+    height: 56px;
+    margin: 0 18px;
+}
+
+.icone-menu{
+    height: 20px;
+}

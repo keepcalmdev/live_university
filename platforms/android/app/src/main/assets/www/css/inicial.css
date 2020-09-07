@@ -1,0 +1,96 @@
+  @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700');
+  *:not(i){
+    font-family: Nunito !important;
+    color: #781766;
+  }
+  .tela-inicial h4{
+    margin-top: 40px;
+    font-weight: 700;
+    width: 65%;
+    font-size: 42px;
+  }
+  .tela-inicial li{
+    border: 2px solid #781766;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 10px 0px;
+  }
+
+  .tela-inicial li:hover{
+    background-color: lightgray;
+  }
+
+.tela-inicial ul{
+  margin-top: 50px;
+}
+  .tela-inicial > i{
+    font-size: 32px;
+    margin: 8px 0px;
+    position: relative;
+    right: 13px;
+  }
+  .telas-inicial-2 h4{
+    width: 85% !important;
+  }
+  .telas-inicial-2 h4, .telas-inicial-3 h4{
+    margin: 0px;
+  }
+
+  .tela-inicial h5{
+    font-weight: 300 !important;
+    font-size: 22px;
+  }
+
+  .telas-inicial-3 > h4{
+    margin-bottom: 0px;
+  }
+
+  .telas-inicial-3 > h5{
+    margin: 0px;
+    margin-top: 14px;
+    width: 90%;
+    font-size: 23px;
+  }
+
+.tela-inicial .input-field {
+  margin-bottom: 0px;
+}
+
+  .tela-inicial .input-field i{
+    font-size: 27px;
+    color: #781766 !important;
+    margin-top: -1px;
+  }
+  .tela-inicial .input-field label{
+    color: #781766 !important;
+    top: -6px;
+  }
+.tela-inicial .input-field label.active{
+  top: 0px;
+}
+  .tela-inicial .input-field input{
+    padding: 0px 6px !important;
+    height: 28px;
+    border-color: #781766;
+    color: #781766 !important;
+/*    font-size: 1px !important;*/
+  }
+  .tela-inicial .input-field input:focus{
+    border-bottom: 1px solid #781766 !important;
+    box-shadow: 0px 1px 0px 0 #781766 !important;
+  }
+  .tela-inicial .input-field i.active{
+    color: #781766 !important;
+  }
+.tela-inicial-video{
+  border: 1px solid #781766;
+  padding: 13px 20px;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 18px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+.tela-inicial-video i{
+  font-size: 50px;
+}

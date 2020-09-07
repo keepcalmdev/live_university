@@ -1,0 +1,50 @@
+details{
+    text-align: left;
+    margin-left: 8px;
+    user-select: none;
+}
+
+details li > a{
+    text-transform: none !important;
+    color: #4DB0B6 !important;
+    text-decoration: underline;
+}
+
+details > :last-child{
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+summary{
+    text-transform: uppercase;
+    color: #4DB0B6;
+    display: block;
+    cursor: pointer;
+    text-align: right;
+    -webkit-tap-highlight-color: transparent;
+}
+
+summary:focus{
+    outline: none;
+}
+
+summary > i{
+    vertical-align: middle;
+}
+
+summary > i::after{
+    content: "expand_more";
+}
+
+details[open] i::after{
+    content: "expand_less";
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details label {
+    color: #666;
+    font-size: 12px;
+}

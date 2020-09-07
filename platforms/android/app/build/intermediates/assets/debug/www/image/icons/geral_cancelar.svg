@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<g id="XMLID_1353_">
+	<defs>
+		<polygon id="XMLID_1354_" points="21.041,4.78 19.22,2.959 12,10.179 4.78,2.959 2.959,4.78 10.179,12 2.959,19.22 4.78,21.041 
+			12,13.821 19.22,21.041 21.041,19.22 13.821,12 		"/>
+	</defs>
+	<clipPath id="XMLID_2_">
+		<use xlink:href="#XMLID_1354_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="XMLID_1355_" style="clip-path:url(#XMLID_2_);">
+		<defs>
+			<rect id="XMLID_1356_" x="1.754" y="1.754" width="20.493" height="20.493"/>
+		</defs>
+		<clipPath id="XMLID_3_">
+			<use xlink:href="#XMLID_1356_"  style="overflow:visible;"/>
+		</clipPath>
+		<rect id="XMLID_1357_" x="-0.055" y="-0.055" style="clip-path:url(#XMLID_3_);fill:#F5A723;" width="24.109" height="24.109"/>
+	</g>
+</g>
+</svg>

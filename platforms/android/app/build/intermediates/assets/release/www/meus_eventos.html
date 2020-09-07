@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>home</title>
+    <script type="text/javascript" src="cordova.js"></script>
+
+    <script src="fw/jquery/jquery.min.js"></script>
+    <script src="fw/ejs/ejs.js"></script>
+    <link rel="stylesheet" href="fw/materialize/css/materialize.min.css">
+    <script src="fw/materialize/js/materialize.min.js"></script>
+    <link href="fw/google/google-fonts.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/general.css">
+
+    <script src="fw/touch/touch.js"></script>
+
+    <!-- jquery-mask -->
+    <script src="js/jquery.mask.min.js"></script>
+
+    <!-- CARDS -->
+    <script src="views/cards/navbar_comum.js"></script>
+    <script src="views/cards/nav_degrade.js"></script>
+    <script src="views/cards/menu_lateral.js"></script>
+    <script src="views/cards/submenutabs.js"></script>
+    <script src="views/cards/aula.js"></script>
+    <script src="views/cards/aula_in.js"></script>
+    <script src="views/cards/avaliacao_solta_modulo.js"></script>
+    <script src="views/cards/avaliacao_solta.js"></script>
+    <script src="views/cards/notas_e_faltas.js"></script>
+    <script src="views/cards/card-financeiro.js"></script>
+    <script src="views/cards/action.js"></script>
+    <script src="views/cards/lesson.js"></script>
+    <script src="views/cards/combo_box.js"></script>
+    <script src="views/tabs.js"></script>
+    <script src="views/modulo_ondemand.js"></script>
+    <script src="views/aula_ondemand.js"></script>
+    <script src="views/cards/menu_hor_aula.js"></script>
+    <script src="views/cards/video_jw.js"></script>
+    <script src="views/cards/menu_arquivos_ondemand.js"></script>
+    <script src="views/cards/resposta_ondemand_full_screen.js"></script>
+    <script src="views/cards/resposta_video.js"></script>
+    <script src="views/cards/eletivas-workshopecongressos.js"></script>
+    <script src="views/cards/courses-list.js"></script>
+    <script src="views/cards/eletivas-dados.js"></script>
+    <script src="views/aula_ondemand.js"></script>
+    <script src="views/cards/shift-newgroup.js"></script>
+    <script src="views/cards/shift-accept-invite.js"></script>
+    <script src="views/cards/shift-go-group.js"></script>
+    <script src="views/cards/shift-novo-orientador.js"></script>
+    <script src="views/cards/shift-novo-participantes.js"></script>
+    <!--<script src="views/cards/shift-novo-edit-participantes.js"></script>-->
+    <script src="views/cards/shift-edit-empresa.js"></script>
+    <script src="views/cards/shift-historico.js"></script>
+    <script src="views/cards/shift-edit-participantes.js"></script>
+    <script src="views/cards/nav_home_sales.js"></script>
+    <script src="views/cards/filtro_home_sales.js"></script>
+    <script src="views/cards/cards_home_sales.js"></script>
+    <script src="views/home_sales.js"></script>
+    <script src="views/cards/nav_degrade_sales.js"></script>
+    <script src="views/cards/aula_sales.js"></script>
+    <script src="views/cards/view_modulos_sales.js"></script>
+    <script src="views/sales.js"></script>
+    <script src="views/cards/tela_venda.js"></script>
+    <script src="views/cards/politicas.js"></script>
+
+    <script src="views/home/nav_bar.js"></script>
+    <script src="views/home/home.js"></script>
+    <script src="views/home/perfil.js"></script>
+    <script src="views/home/cards.js"></script>
+
+    <script src="js/2-lines.js" defer></script>
+    <script src="js/database.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/aula_ondemand.js"></script>
+    <script src="js/eletivas.js"></script>
+
+    <!-- controles do video-player embutido em post -->
+    <script src="js/video_controles.js"></script>
+
+    <!-- jwplayer -->
+    <script src="https://content.jwplatform.com/libraries/3BOeDx0i.js"></script>
+    <script>jwplayer.key = "ggL5HBVRpFimgFviYWJgqArZ55MFy9n4/bRiVcJ/Cts=";</script>
+
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/lock.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/curso_ondemand.css">
+    <link rel="stylesheet" href="css/perfil.css">
+</head>
+
+<body>
+    <div id="navbar_comum">
+        <nav class="nav-extended default-bg-color">
+            <div class="nav-wrapper">
+                <div class="nav-text flex"
+                    style="
+                        width: 100%;
+                        max-width: 100%;
+                    "
+                >
+                    <button type="button" class="voltar resetButtonStyle" onclick="back_to_main()">
+                        <i class="material-icons white-text"
+                            style="
+                                font-size: 45px;
+                            "
+                        >keyboard_arrow_left</i>
+                    </button>
+
+                    <p class="margin-0 flex-1"
+                        style="
+                            font-size: 19px;
+                            width: 0;
+                        "
+                    >Congresso anual de vendas hahahah</p>
+                </div>
+                <div class="nav-buttons">
+                    <a href="#" class="notification-icon"
+                        style="
+                            margin-left: 10px;
+                            margin-right: 0;
+                        "
+                    >
+                        <img src="image/icons/inbox.svg" alt="" class="box-icon"> 
+                    </a>
+                    <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large">
+                        <img src="img/icons/menu.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="submenutabs">
+        <ul class="tabs tabs-transparent tabs-fixed-width default-bg-color flex">
+            <li class="tab flex-1"><a id="menu-calendario" href="#feed">Feed</a></li>
+            <li class="tab flex-1"><a class="" href="#agenda">Agenda</a></li>
+            <li class="tab flex-1"><a id="menu-eletivas" class="active" href="#credencial">Credencial</a></li>
+        </ul>
+    </div>
+
+    <div id="all_tabs"
+        style="
+            margin-top: 116px;
+        "
+    >
+        <div id="feed">
+            <!-- Início do Post Patrocinado -->
+            <div class="patrocinado card">
+                <div class="cabecalho">
+                    <div class="flex ai-cen">
+                        <div class="foto"></div>
+        
+                        <p class="flex-1 margin-0">
+                            <strong>John Doe</strong>
+                            <br>
+                            <span class="grey-text text-darken-1">Nome da Empresa</span>
+                        </p>
+                    </div>
+                </div>
+        
+                <!-- Conteúdo de Video (Controles logo abaixo) -->
+                <video id="video-patrocinado" class="responsive-video" style="display: block">
+                    <source src="image/live_university.mp4" type="video/mp4">
+                </video>
+                
+                <!-- Conteúdo de Imagem
+                <div class="conteudo card-image">
+                    <img class="materialboxed" src="image/aaa.jpg">
+                </div>
+                -->
+                
+                <div class="link">
+                    <a class="waves-effect waves-light btn-flat text-right">
+                        <i class="material-icons right white-text">chevron_right</i>
+                        <strong class="white-text">Patrocinado</strong>
+                    </a>
+                </div>
+
+                <!-- Início dos Controles do Vídeo -->
+                <div class="controles flex">
+                    <a onclick="play_video('#video-patrocinado')"><img src="img/icons/video_playbar.svg"></a>
+                    <a onclick="pause_video('#video-patrocinado')"><img src="img/icons/video_stopbar.svg"></a>
+                
+                    <p class="range-field">
+                        <input class="progresso" type="range" min="0" max="100" value="0" />
+                    </p>
+                
+                    <a onclick="toggle_mute_video('#video-patrocinado')"><img src="img/icons/video_volume.svg"></a>
+                    <a onclick="fullscreen_video('#video-patrocinado')"><img src="img/icons/video_fullscreen.svg"></a>
+                </div>
+                <!-- Fim dos Controles do Vídeo -->
+        
+                <div class="rodape flex jc-sb ai-cen">
+                    <div>
+                        <strong>
+                            <p>10 Gostaram - 2 Comentaram</p>
+                        </strong>
+                    </div>
+                    <div>
+                        <a id="comentar"><img src="img/icons/feed_comentarios_inativo.svg"></a>
+                        <a id="curtir"><img src="img/icons/geral_like_inativo.svg"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do Post Patrocinado -->
+        </div>
+
+        <div id="agenda" class="pos-rel">
+            <div class="decoration pos-abs w100 top-0 left-0 z-n1 default-gradient"></div>
+
+            <div class="alternador flex ai-cen">
+                <a href="" class="flex ai-cen">
+                    <i class="material-icons white-text">skip_previous</i>
+                </a>
+
+                <span class="flex-1 text-center white-text">10 de Outubro de 2018</span>
+
+                <a href="" class="flex ai-cen">
+                    <i class="material-icons white-text">skip_next</i>
+                </a>
+            </div>
+
+            <div class="item card flex ai-cen">
+                <div class="horario text-center flex fd-col jc-cen">
+                    <span class="hora">08</span>
+                    <span class="minuto">:30</span>
+                </div>
+
+                <p class="flex-1 margin-0">
+                    <strong>Boas vindas</strong>
+                    <br>
+                    <span class="grey-text text-darken-1">Alex Leite - Live University</span>
+                </p>
+
+                <a href="" class="flex ai-cen">
+                    <i class="material-icons grey-text text-lighten-1">navigate_next</i>
+                </a>
+            </div>
+
+            <div class="item-completo card flex ai-start">
+                <div class="horario text-center flex fd-col jc-cen">
+                    <span class="hora">09</span>
+                    <span class="minuto">:00</span>
+                </div>
+
+                <div class="flex-1">
+                    <div class="box-nome-evento flex ai-end">
+                        <strong class="nome-evento flex-1">O novo regime da compensação tributária</strong>
+
+                        <a href="">
+                            <i class="icone material-icons grey-text text-lighten-1">navigate_next</i>
+                        </a>
+
+                        <span class="indicador-painel pos-abs top-0 right-0 text-uppercase">Painel</span>
+                    </div>
+
+                    <hr class="divisoria">
+
+                    <p class="participantes grey-text text-darken-1 margin-bottom-0">
+                        <span>Alex Leite - Live University</span><br>
+                        <span>Steve Jobs - Apple Inc.</span><br>
+                        <span>Bill Gates - Microsoft</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="credencial">
+            <div class="dados card">
+                <div>
+                    <div class="flex ai-cen">
+                        <div class="foto"></div>
+
+                        <div class="pessoal">
+                            <strong>John Doe</strong><br>
+                            <span>Nome da empresa</span>
+                        </div>
+                    </div>
+
+                    <div>
+                    </div>
+                </div>
+
+                <div class="acoes flex">
+                    <div class="flex-1 flex fd-col ai-cen">
+                        <i class="material-icons">file_download</i>
+                        <span>Salvar no Wallet</span>
+                    </div>
+
+                    <div class="flex-1 flex fd-col ai-cen">
+                        <i class="material-icons">camera_roll</i>
+                        <span>Ver credencial</span>
+                    </div>
+                </div>
+            </div>
+
+            <article class="sobre card">
+                <h1 class="margin-0">Sobre o evento</h1>
+
+                <p class="margin-bottom-0 grey-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </article>
+
+            <div class="feed card flex ai-cen">
+                <i class="icone material-icons">share</i>
+                <span class="flex-1">Feed de notícias</span>
+                <i class="material-icons grey-text text-lighten-1">chevron_right</i>
+            </div>
+
+            <div class="agenda card flex ai-cen">
+                <i class="icone material-icons">local_atm</i>
+                <span class="flex-1">Agenda</span>
+                <i class="material-icons grey-text text-lighten-1">chevron_right</i>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        #credencial {
+            padding: 10px;
+        }
+
+        #credencial .dados .foto {
+            --diameter: 55px;
+            width: var(--diameter);
+            height: var(--diameter); 
+            background-color: lightgrey;
+            margin: 10px;
+            border-radius: 50px;
+        }
+
+        #credencial .dados .pessoal {
+            font-size: 13px;
+            color: grey;
+        }
+
+        #credencial .dados .acoes {
+            padding: 10px;
+            border-top: 1px solid lightgrey;
+        }
+
+        #credencial .dados .acoes i {
+            color: var(--DarkishPurple);
+        }
+
+        #credencial .sobre {
+            padding: 20px 10px;
+        }
+
+        #credencial .sobre h1 {
+            font-size: 14px;
+        }
+
+        #credencial .feed,
+        #credencial .agenda {
+            padding: 10px;
+        }
+
+        #credencial .feed span,
+        #credencial .agenda span {
+            padding-left: 10px;
+        }
+
+        #credencial .feed .icone,
+        #credencial .agenda .icone {
+            font-size: 50px; 
+            color: var(--DarkishPurple);
+        }
+    </style>
+
+    <style>
+        #agenda .decoration {
+            height: 100px;
+        }
+
+        #agenda .alternador {
+            padding-top: 1.5em;
+            margin: 1.5em;
+        }
+
+        #agenda .alternador span {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        #agenda .item {
+            margin: 1.5em;
+            padding: 1.5em;
+        }
+
+        #agenda .item .horario,
+        #agenda .item-completo .horario {
+            font-weight: 600;
+            line-height: 1;
+            margin-right: 1.5em;
+            color: var(--DarkishPurple);
+        }
+
+        #agenda .item .horario .hora,
+        #agenda .item-completo .horario .hora {
+            font-size: 23px;
+        }
+
+        #agenda .item .horario .minuto,
+        #agenda .item-completo .horario .minuto {
+            font-size: 16px;
+        }
+
+        #agenda .item .horario .hora,
+        #agenda .item .horario .minuto,
+        #agenda .item-completo .horario .hora,
+        #agenda .item-completo .horario .minuto {
+            color: inherit;
+        }
+
+        #agenda .item p {
+            line-height: 1.3;
+            font-size: 16px;
+        }
+
+        #agenda .item p span {
+            font-size: 12px;
+        }
+
+        #agenda .item a {
+            width: 12px;
+        }
+
+        #agenda .item-completo {
+            margin: 1.5em;
+            padding: 1.5em;
+            padding-right: 0;
+        }
+
+        #agenda .item-completo .box-nome-evento {
+            padding-right: 1.5em;
+        }
+
+        #agenda .item-completo .box-nome-evento strong {
+            line-height: 1.3;
+            font-size: 16px;
+        }
+
+        #agenda .item-completo .icone {
+            width: 12px;
+        }
+
+        #agenda .item-completo .indicador-painel {
+            font-size: 10px;
+            padding: 1.5em;
+            font-weight: 600;
+            color: var(--Tealish);
+        }
+
+        #agenda .item-completo .divisoria {
+            border: .5px solid rgba(0,0,0,.1); margin-top: 1.5em;
+        }
+
+        #agenda .item-completo .participantes {
+            font-size: 12px;    
+        }
+
+        #agenda .item-completo .participantes span {
+            color: inherit;
+        }
+    </style>
+
+    <style>
+        #feed {
+            padding: 10px;
+        }
+    
+        #feed .patrocinado .cabecalho .foto {
+            --diameter: 55px;
+            width: var(--diameter);
+            height: var(--diameter);
+            background-color: lightgrey;
+            margin: 10px;
+            border-radius: 50px;
+        }
+
+        #feed .patrocinado .cabecalho p {
+            line-height: 1.3;
+            font-size: 18px;
+        }
+
+        #feed .patrocinado .cabecalho p span {
+            font-size: 16px;
+        }
+
+        #feed .patrocinado .cabecalho {
+            border-bottom: 1px solid lightgrey;
+        }
+
+        #feed .patrocinado .link .btn-flat {
+            background-color: #1dc4bd;
+            width: 100%;
+            height: 40px;
+            border-radius: 0px;
+            font-size: 18px;
+            padding-top: 3px;
+            padding-right: 0px;
+            text-transform: none;
+        }
+
+        #feed .patrocinado i {
+            font-size: 32px;
+        }
+
+        #feed .patrocinado .controles {
+            margin-left: 7px;
+            margin-right: 7px;
+        }
+
+        #feed .patrocinado .controles a {
+            padding: 0px;
+        }
+
+        #feed .patrocinado .controles img {
+            margin-top: 5px;
+            margin-left: 4px;
+            margin-right: 4px;
+            width: 24px;
+            height: 24px;
+        }
+
+        #feed .patrocinado .controles .range-field {
+            width: 100%;
+            margin: 0px;
+        }
+
+        #feed .patrocinado .rodape {
+            border-top: 1px solid lightgrey;
+        }
+    
+        #feed .patrocinado .rodape i,
+        #feed .patrocinado .rodape p,
+        #feed .patrocinado .rodape img {
+            color: grey;
+        }
+
+        #feed .patrocinado .rodape p {
+            margin-left: 14px;
+            font-size: 16px;
+        }
+
+        #feed .patrocinado .rodape img {
+            width: 24px;
+            height: 24px;
+            margin-right: 7px;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+        $(document).ready(function () {
+            $('.tabs').tabs();
+        });
+    </script>
+</body>
+
+</html>

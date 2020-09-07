@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77.341" height="77.341" viewBox="0 0 77.341 77.341">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_2" data-name="Path 2" d="M19.129,25.577l-8.071-7.823L8.313,20.4,19.129,30.887,42.35,8.371,39.622,5.726Z" transform="translate(-8.313 -5.726)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_59" data-name="Group 59" transform="translate(-782 -874.342)">
+    <g id="Group_58" data-name="Group 58" transform="translate(782 874.342)">
+      <g id="Checked-in" transform="translate(0 0)">
+        <rect id="Checked-in_background" data-name="Checked-in background" width="71.472" height="71.473" transform="translate(2.145 4.817)" fill="rgba(0,0,0,0)"/>
+        <g id="outline-person_pin_circle-24px_1_" data-name="outline-person_pin_circle-24px (1)">
+          <path id="Shape" d="M0,0H77.341V77.341H0Z" fill="none"/>
+          <g id="Group_47" data-name="Group 47" transform="translate(29.909 18.199)">
+            <g id="Group_9" data-name="Group 9">
+              <g id="Group_8" data-name="Group 8" clip-path="url(#clip-path)">
+                <rect id="Rectangle_2" data-name="Rectangle 2" width="48.84" height="39.961" transform="translate(-7.401 -7.398)" fill="#34beb9"/>
+              </g>
+            </g>
+          </g>
+          <g id="Group_48" data-name="Group 48" transform="translate(16.586 3.402)">
+            <path id="Path_3" data-name="Path 3" d="M28.814,21.406l10.17-9.669A17.735,17.735,0,0,0,5.8,20.5c0,10.5,11.308,26.27,17.76,34.01,4.573-5.526,14.876-18.943,17.229-29.829l-4.656,4.426Z" transform="translate(0.116 3.201)" fill="none"/>
+            <path id="Path_4" data-name="Path 4" d="M44.705,28.6C42.349,39.484,32.05,52.9,27.476,58.426c-6.452-7.737-17.76-23.513-17.76-34.011A17.735,17.735,0,0,1,42.9,15.649L47.259,11.5A23.626,23.626,0,0,0,3.8,24.4c0,16.5,20.6,39.5,21.49,40.48l2.191,2.43,2.191-2.43c.888-.976,21.49-23.988,21.49-40.48,0-.619-.053-1.224-.1-1.831Z" transform="translate(-3.795 -0.708)" fill="#34beb9"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="baseline-new_releases-24px" transform="translate(824 918.013)">
+      <path id="Path_30" data-name="Path 30" d="M0,0H29.987V29.987H0Z" fill="none"/>
+      <path id="Path_31" data-name="Path 31" d="M28.488,14.609,25.44,11.136l.425-4.6L21.354,5.513,18.992,1.54,14.744,3.364,10.5,1.54,8.134,5.513,3.624,6.525l.425,4.6L1,14.609l3.049,3.474-.425,4.611,4.511,1.025L10.5,27.691l4.248-1.837,4.248,1.824,2.361-3.973,4.511-1.025-.425-4.6ZM15.994,20.857h-2.5v-2.5h2.5Zm0-5h-2.5v-7.5h2.5Z" transform="translate(0.249 0.384)" fill="#f5a623"/>
+    </g>
+  </g>
+</svg>

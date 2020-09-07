@@ -1,0 +1,45 @@
+#aula_ondemand_v #box_resposta_ondemand_full_screen .questao {
+    padding-bottom: 0;
+}
+
+#aula_ondemand_v #box_resposta_ondemand_full_screen .video-answer .resposta {
+    padding: 10px 12px;
+}
+
+#aula_ondemand_v #box_resposta_ondemand_full_screen .video-answer .resposta,
+#aula_ondemand_v #box_resposta_ondemand_full_screen .video-answer .resposta .unlike,
+#aula_ondemand_v #box_resposta_ondemand_full_screen .video-answer .resposta .like {
+    color: #9e9e9e;
+}
+
+#aula_ondemand_v #box_avaliacao_solta .rating {
+    top: 0 !important;
+}
+
+#aula_ondemand_v #box_avaliacao_solta .rating textarea {
+    height: 24px;
+}
+
+#aula_ondemand_v #box_avaliacao_solta .nota button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#aula_ondemand_v #box_avaliacao_solta .nota button span {
+    position: absolute;
+}
+
+/* Fazer resposta desaparecer */
+
+#box_resposta_video {
+    transition: opacity 2s;
+    opacity: 1;
+}
+
+#box_resposta_video.no_show {
+    transition: opacity 2s;
+    opacity: 0;
+}
+

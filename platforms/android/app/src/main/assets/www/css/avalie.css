@@ -1,0 +1,36 @@
+.arrumar-fundo {
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #781866;
+    z-index: 0;
+}
+
+.noUi-horizontal .noUi-handle {
+    background-color: #4bb0b8;
+}
+
+#slider {
+    margin: 10% 10%;
+}
+
+.nota {
+    width: 100%;
+}
+
+.background {
+    background-color: #781866
+}
+
+.textarea {
+            font-family: "Courier New", Courier, monospace;
+            min-height: 20px;
+            max-height: 120px;
+            height: auto;
+            border: none;
+            border-bottom: 2px solid rgba(63, 63, 63, 1);
+            overflow-y: scroll;
+            text-align: left;
+            box-shadow: none !important;
+        }
